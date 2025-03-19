@@ -4,7 +4,9 @@ and modify student NCEA data through the menu.
 '''
 
 #List of all students
-student_list = [['Sue Joe', 11, 3, 4, 6], ['Richard Li', 13, 0, 7, 9]]
+student_list = [['Sue DidntPass', 11, 3, 4, 6], 
+                ['Richard DidPass', 12, 40,10, 10],
+                ['Mary Gotexcellence', 13, 0, 0,80]]
 
 
 #Prints all students and credits- working
