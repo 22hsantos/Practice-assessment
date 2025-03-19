@@ -32,6 +32,7 @@ NCEA Student Qualification Portal\n
 >''').strip
         
         if menu_input == '1':
+            print('Hi')
             all_students()
             break
         if menu_input == '2':
