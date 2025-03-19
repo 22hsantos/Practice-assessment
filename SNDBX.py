@@ -7,7 +7,7 @@ and modify student NCEA data through the menu.
 student_list = [['Sue Joe', 11, 3, 4, 6], ['Richard Li', 13, 0, 7, 9]]
 
 
-def all_students():
+def all_students(student_list):
     for student in student_list:
         print(f'''
 {student[0]}\n
