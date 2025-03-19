@@ -7,6 +7,7 @@ and modify student NCEA data through the menu.
 student_list = [['Sue Joe', 11, 3, 4, 6], ['Richard Li', 13, 0, 7, 9]]
 
 
+#Prints all students and credits- working
 def all_students():
     for student in student_list:
         print(f'''
