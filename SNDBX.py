@@ -15,9 +15,9 @@ def all_students():
         print(f'''
 {student[0]}\n
 Year {student[1]}\n
-{student[2]} credits in level 1\n
-{student[3]} credits in level 2\n
-{student[4]} credits in level 3\n ''')
+{student[2]} credits in Achieved\n
+{student[3]} credits in Merit\n
+{student[4]} credits in Excellence\n ''')
 
 
 #main menu
