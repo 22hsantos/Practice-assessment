@@ -43,4 +43,4 @@ NCEA Student Qualification Portal\n
 
 
 
-menu()
+print(student_list)
