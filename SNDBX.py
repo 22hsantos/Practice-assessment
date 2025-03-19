@@ -28,7 +28,8 @@ NCEA Student Qualification Portal\n
 3. All Endorsed Students\n
 4. Student Summary\n
 5. Adjust Credits\n
-6. Add new Student data.''').strip
+6. Add new Student data.\n
+>''').strip
         
         if menu_input == '1':
             all_students()
