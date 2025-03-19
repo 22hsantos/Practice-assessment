@@ -29,7 +29,7 @@ NCEA Student Qualification Portal\n
 4. Student Summary\n
 5. Adjust Credits\n
 6. Add new Student data.\n
->''').strip
+>''').strip()
         
         if menu_input == '1':
             print('Hi')
