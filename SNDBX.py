@@ -11,7 +11,7 @@ def all_students():
     for student in student_list:
         print(f'''
 {student[0]}\n
-Year {student[1]}
+Year {student[1]}\n
 {student[2]} credits in level 1\n
 {student[3]} credits in level 2\n
 {student[4]} credist in level 3\n ''')
