@@ -14,7 +14,7 @@ def all_students():
 Year {student[1]}\n
 {student[2]} credits in level 1\n
 {student[3]} credits in level 2\n
-{student[4]} credist in level 3\n ''')
+{student[4]} credits in level 3\n ''')
 
 
 #main menu
@@ -32,7 +32,6 @@ NCEA Student Qualification Portal\n
 >''').strip()
         
         if menu_input == '1':
-            print('Hi')
             all_students()
             break
         if menu_input == '2':
