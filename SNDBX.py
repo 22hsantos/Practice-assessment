@@ -52,5 +52,4 @@ NCEA Student Qualification Portal\n
             print('Please enter a valid input.')
 
 
-
-print(student_list)
+menu()
