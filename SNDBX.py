@@ -3,8 +3,18 @@ This program allows the user to access
 and modify student NCEA data through the menu.
 '''
 
+#List of all students
+student_list = [['Sue Joe', 11, 3, 4, 6], ['Richard Li', 13, 0, 7, 9]]
 
-student_list = [['Sue', 11, 3, 4, 6], ['Richard', 13, 0, 7, 9]]
+
+def all_students():
+    for student in student_list:
+        print(f'''
+{student[0]}\n
+Year {student[1]}
+{student[2]} credits in level 1\n
+{student[3]} credits in level 2\n
+{student[4]} credist in level 3\n ''')
 
 
 #main menu
