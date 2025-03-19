@@ -1,8 +1,10 @@
-
 ''' 
 This program allows the user to access 
 and modify student NCEA data through the menu.
 '''
+
+
+student_list = [['Sue', 11, 3, 4, 6], ['Richard', 13, 0, 7, 9]]
 
 
 #main menu
