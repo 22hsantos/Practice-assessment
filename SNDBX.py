@@ -18,7 +18,8 @@ Year {student[1]}\n
 {student[2]} credits in Achieved\n
 {student[3]} credits in Merit\n
 {student[4]} credits in Excellence\n ''')
-
+        input('press any key to return.')
+        menu()
 
 #main menu
 def menu():
@@ -56,4 +57,4 @@ NCEA Student Qualification Portal\n
             print('Please enter a valid input.')
 
 
-all_students()
+menu()
